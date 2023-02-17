@@ -20,11 +20,12 @@ find_package(Qt5 REQUIRED COMPONENTS Widgets Test)
 find_package(image_transport REQUIRED)
 find_package(cv_bridge REQUIRED)
 
+
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
-
+find_package(actionlib_msgs REQUIRED)
 find_package(laser_geometry REQUIRED)
 find_package(map_msgs REQUIRED)
 find_package(pluginlib REQUIRED)
@@ -119,6 +120,7 @@ ament_target_dependencies(jsk_rviz_plugins
   std_msgs
   geometry_msgs
   nav_msgs
+  actionlib_msgs
   diagnostic_msgs
   jsk_footstep_msgs
   jsk_gui_msgs
@@ -162,6 +164,7 @@ ament_export_dependencies(
   laser_geometry
   map_msgs
   nav_msgs
+  actionlib_msgs
   rclcpp
   resource_retriever
   rviz_ogre_vendor
