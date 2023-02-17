@@ -31,6 +31,7 @@
   <depend>image_transport</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>actionlib_msgs</depend>
   <!-- <depend>interactive_markers</depend> -->
   <depend>laser_geometry</depend>
   <depend>nav_msgs</depend>
